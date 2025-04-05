@@ -1,0 +1,14 @@
+.github/workflows/hello-action.yml
+
+name: Say Hello on Push
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greeting
+        run: echo "👋 Hello from Amitanshu Mohanty"
+
+Add GitHub Action to greet on push
